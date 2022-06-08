@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator served with express</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="time_display">
+            <div >
+                <span class="hour"></span>:<span class="minute"></span>
+            </div>
+        </div>
+
+        <div class="screen" id="display">
+            <div data-previous-operand></div>
+            <div data-current-operand></div>
+        </div>
+
+        <div class="calculator-button" >
+            <div data-clear class="button function ac">AC</div>
+            <div data-delete class="button function plus-minus">DEL</div>
+            <div data-operand class="button function percentage">%</div>
+            <div data-operand class="button operaration division">/</div>
+            <div data-operand data-number class="button number-7">7</div>
+            <div data-number class="button number-8">8</div>
+            <div data-number class="button number-9">9</div>
+            <div data-operand class="button operaration multiplication">*</div>
+            <div data-number class="button number-4">4</div>
+            <div data-number class="button number-5">5</div>
+            <div data-number class="button number-6">6</div>
+            <div data-operand class="button operaration subtraction">-</div>
+            <div data-number class="button number-1">1</div>
+            <div data-number class="button number-2">2</div>
+            <div data-number class="button number-3">3</div>
+            <div data-operand class="button operaration addition">+</div>
+            <div data-number class="button number-0">0</div>
+            <div data-number class="button decimal">.</div>
+            <div data-equals class="button operaration equals">=</div>
+            
+
+
+        </div>
+
+    </div>
+
+    <script src="Calculator.js"></script>
+</body>
+</html>
